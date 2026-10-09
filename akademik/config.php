@@ -8,7 +8,7 @@ $user = "root";
 $password = "";
 $db = "project_pdcs";
 
-$koneksi = @mysqli_connect($host, $user, $pass, $db);
+$koneksi = @mysqli_connect($host, $user, $password, $db);
 
 if (!$koneksi) {
     sendResponse(
